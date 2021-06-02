@@ -8,7 +8,7 @@
 import SwiftUI
 
 extension Color {
-    static let primary = Color("primary")
+    static let main = Color("primary")
 }
 
 class Json: ObservableObject {
@@ -64,7 +64,7 @@ struct HomeView: View {
                         Image(systemName: "info.circle.fill")
                     })
         }
-        .accentColor(.primary)
+        .accentColor(.main)
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
@@ -88,7 +88,7 @@ struct ClubCard :View{
                 Text(data.description).font(.caption).lineLimit(3)
                 NavigationLink(
                     destination:DetailView(data: data)) {
-                    Text("see details").font(.callout).bold().foregroundColor(.primary).padding(.top, 10).frame(maxWidth: .infinity, alignment: .trailing)
+                    Text("see details").font(.callout).bold().foregroundColor(.main).padding(.top, 10).frame(maxWidth: .infinity, alignment: .trailing)
                     
                 }
             }.padding(10)
