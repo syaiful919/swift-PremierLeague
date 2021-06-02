@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+extension Color {
+    static let primary = Color("primary")
+}
 
 class Json: ObservableObject {
     @Published var json = [ClubModel]()
@@ -61,7 +64,7 @@ struct HomeView: View {
                         Image(systemName: "info.circle.fill")
                     })
         }
-        .accentColor(Color.secondary)
+        .accentColor(.primary)
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
@@ -83,6 +86,11 @@ struct ClubCard :View{
                     }
                 }.padding(.bottom, 5)
                 Text(data.description).font(.caption).lineLimit(3)
+                NavigationLink(
+                    destination:DetailView(data: data)) {
+                    Text("see details").font(.callout).bold().foregroundColor(.primary).padding(.top, 10).frame(maxWidth: .infinity, alignment: .trailing)
+                    
+                }
             }.padding(10)
         }
         .padding(5)
