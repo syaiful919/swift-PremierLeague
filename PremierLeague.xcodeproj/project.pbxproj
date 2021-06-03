@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581669852668748900437C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581669842668748900437C9E /* LaunchScreen.storyboard */; };
 		58C92BFA266726C000DDDF27 /* PremierLeagueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C92BF9266726C000DDDF27 /* PremierLeagueApp.swift */; };
 		58C92BFC266726C000DDDF27 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C92BFB266726C000DDDF27 /* HomeView.swift */; };
 		58C92BFE266726C300DDDF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C92BFD266726C300DDDF27 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		581669842668748900437C9E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58C92BF6266726C000DDDF27 /* PremierLeague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PremierLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C92BF9266726C000DDDF27 /* PremierLeagueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremierLeagueApp.swift; sourceTree = "<group>"; };
 		58C92BFB266726C000DDDF27 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				58C92C0F266727CA00DDDF27 /* DetailView.swift */,
 				58C92C13266727E800DDDF27 /* AboutView.swift */,
 				58C92C1A2667441B00DDDF27 /* ClubModel.swift */,
+				581669842668748900437C9E /* LaunchScreen.storyboard */,
 			);
 			path = PremierLeague;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58C92C01266726C300DDDF27 /* Preview Assets.xcassets in Resources */,
+				581669852668748900437C9E /* LaunchScreen.storyboard in Resources */,
 				58C92C0A2667271300DDDF27 /* data.json in Resources */,
 				58C92BFE266726C300DDDF27 /* Assets.xcassets in Resources */,
 			);
